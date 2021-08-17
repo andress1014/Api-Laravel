@@ -1,3 +1,19 @@
+
+    1. Descargar repositorio
+    2. Instalar paquetes o dependencias composer install
+    3. Clonar contenido del archivo .env.example y canbiarlo a .env
+    4. Generar APP_KEY y prueba php artisan key:generate
+    5. Descargar las dependencias js npm install
+    6. Configurar en el archivo .env la base de datos y crearlas
+    7. ejecutar las Migraciones php artisan migrate:fresh --seed
+    8. Si no tiene vue instalar npm install -global @vue/cli
+    9. Actualizar vue npm update vue-loader
+    10. Tener algun servidor local para mysql como xammp, wamp o laragon
+    11. correr el comando php artisan migrate:fresh --seed
+    12. usuario admin: admin@admin password: admin
+    13. usuario comun: user@user password:user
+    14. Preferiblemente tener laravel 8: composer global require laravel/installer
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
